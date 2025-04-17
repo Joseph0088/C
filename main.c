@@ -3,6 +3,8 @@
 #include <stdbool.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdarg.h>
+
 #define  n 50
 #define bn 100
 
@@ -35,31 +37,86 @@ void  printReceipt(int accNum,float amount);
 pos * init_ACC();
 pos * createACC(pos * head, CLIENT new_client);
 CLIENT  input_data();
-void  displayACC(pos * head, int accNum);
-bool authentication(pos * head,int id, int pin);
+pos *  displayACC(pos * head, int accNum);
+pos* authentication(pos * head,int id, int pin);
 void balance(pos * head,int accNum);
-void deposition(pos * head,int accNum, float new_balance);
+pos * admin(pos* head);
 pos * updateACC(pos* head, int accNum,char opt);
-
+pos * search(pos* head, int acc);
+void write_file(int count, ...);
 
 int main(){
    pos * head = NULL;
-   CLIENT new_client;
-   int customers;
-   //function calling
-   printf(" To get started we need to add clients in the system\n\n\n");
-   printf("Enter the namber  of clients");
-   scanf("%i",&customers);
-   for(int i=0 ; i<customers ; i++ ){
-         head = createACC(head,input_data());
-   }      
-
+   head = admin(head);
    display(head);
    return 0;
 }
 
                                                         /*function definition*/
-//intialization
+
+pos * admin(pos* head){
+  int customers,choice,accNumber;
+
+do{
+  //function calling
+  printf(" To get started we need to add clients in the system\n\n\n");
+
+  printf("|-------------------------------------------------------------------------------------------------|\n");
+  printf("|"); printf("                                                                                     |\n");
+  printf("|                                          MAIN MENU                                              |\n");
+  printf("|-------------------------------------------------------------------------------------------------|\n\n\n");
+  printf("|                                         1. CREATE ACCOUNT                                       |\n");
+  printf("|-------------------------------------------------------------------------------------------------|\n");
+  printf("|                                         2. DEPOSIT                                              |\n");
+  printf("|-------------------------------------------------------------------------------------------------|\n");
+  printf("|                                         3. SEARCH ACCOUNT                                       |\n");
+  printf("|-------------------------------------------------------------------------------------------------|\n");
+  printf("|                                         4. DELETE ACCOUNT                                       |\n");
+  printf("|-------------------------------------------------------------------------------------------------|\n");
+  printf("|                                         0. EXIT                                                 |\n");
+  printf("|-------------------------------------------------------------------------------------------------|\n");
+
+  printf(" :::");
+  scanf("%i",&choice);
+  
+  switch (choice)
+  {
+  case 1:
+    /* creating a new acount */
+    printf("Enter the number  of clients");
+    scanf("%i",&customers);
+    for(int i=0 ; i<customers ; i++ ){
+          head = createACC(head,input_data());
+    }      
+  
+    break;
+    case 2:
+    /* depositing calling  */
+    head = updateACC(head,accNum,'d');
+    break;
+    case 3:
+    /* search depostion */
+    printf("Enter account :::"); scanf("%i",&accNumber);
+    head = displayACC(head ,accNumber);
+    break;
+    case 4:
+    /* code */
+    break;
+    case 0:
+    /*  exiting point */
+        return head;
+    break;
+
+    
+  default: printf("⚠️ Error! no  corresponding option , try again");
+    break;
+  }
+}while(true);
+
+     return head;
+}
+
+                                                        //intialization
 pos * init_ACC(){
     pos * cust =  (pos *)malloc(sizeof(pos));
     if(cust == NULL){
@@ -103,28 +160,26 @@ CLIENT  input_data(){
          return client;
 }
 
-void displayACC(pos * head ,int accNumber){
+pos * displayACC(pos * head ,int accNumber){
                 pos * ptr = NULL;
                 ptr = head;
-                while(ptr){
-                   if (ptr->next == NULL){
-                       if(ptr->client.custInfor.accNum == accNumber){
-                          printf("\n                                   Current Balance                 \n");
-                          printf("\n                                       %.2f  \n",ptr->client.amount);
-                       }else{
-                         printf("⚠️  System Error !!..... aborting the process !");
-                         display(head);
-                       }
-                    }
-                    else{
-                         if(ptr->client.custInfor.accNum == accNumber){
-                          printf("\n                                   Current Balance        " );
-                          printf("\n                                   %.4f                                \n",ptr->client.amount);
-                       }
-                    }
+                for(ptr; ptr!=NULL ; ptr=ptr->next){
+                  if(ptr->client.custInfor.accNum == accNumber){
+                    printf("|-------------------------------------------------------------------------------------------------|\n");
+                    printf("|"); printf("                                                                                     |\n");
+                    printf("|                                        ACCOUNT DETAILS                                          |\n");
+                    printf("|-------------------------------------------------------------------------------------------------|\n\n\n");
+                    printf("|   NAME : %s                                                                                     |\n",ptr->client.custInfor.name);
+                    printf("|-------------------------------------------------------------------------------------------------|\n");
+                    printf("|   ACCOUNT NUMBER : %i                                                                                  |\n",ptr->client.custInfor.accNum);
+                    printf("|-------------------------------------------------------------------------------------------------|\n");
+                    printf("|   AMOUNT : %.2f                                                                                  |\n",ptr->client.amount);
+                    printf("|-------------------------------------------------------------------------------------------------|\n");
+                                 
+                  }
                 }
-                free(ptr);
 
+                return ptr;
 
 }
 
@@ -141,7 +196,8 @@ bool state = false;
          printf(":::"); scanf("%d",&accNum);
          printf("\n                                                          ENTER PIN                            \n");
          printf(":::"); scanf("%d",&pin);
-         if (authentication(head,accNum,pin)){
+         head = authentication(head,accNum,pin);
+         if (head){
             state = true;
          }
          else{
@@ -183,18 +239,19 @@ do{
 }
 
 //securing connection
-bool  authentication(pos * head ,int id, int Pin){
+pos*  authentication(pos * head ,int id, int Pin){
         pos * ptr = NULL;
         ptr = head;
 
         while(ptr){
-            if(ptr->client.custInfor.accNum == id, ptr->client.custInfor.pin == Pin ){
-                 return true;
+            if(ptr->client.custInfor.accNum == id && ptr->client.custInfor.pin == Pin ){
+                 return head;
              }
+             ptr = ptr->next;
         }
 
         printf("⚠️  Error Authentication !");
-        return false;
+        return NULL;
 }
 
 //updating count details
@@ -244,7 +301,7 @@ pos * updateACC(pos* head, int accNum,char opt){
                           break;
           case 'w':
                           //withdrawing
-                          printf("Enter your Amount to with\n");  printf("\n ::: ");
+                          printf("Enter your Amount to withdraw\n");  printf("\n ::: ");
                           scanf("%f",&new_balance);
                           printf("Confirm operation by pressing ");  printf("\n ::: ");
                           scanf("%i",&verify);
@@ -252,22 +309,33 @@ pos * updateACC(pos* head, int accNum,char opt){
                             ptr->client.amount -= new_balance;   
                           }
                           break;
+            case 'd':
+                          //Deposit
+                          printf("|                                                %s                                               |\n",ptr->client.custInfor.name);
+                          printf("|-------------------------------------------------------------------------------------------------|\n");
+                          printf("|                                            DEPOSIT                                              |\n");
+                          printf("Please Enter the amount\n");  printf("\n ::: ");
+                          scanf("%f",&new_balance);
+                          printf("Confirm operation by pressing ");  printf("\n ::: ");
+                          scanf("%i",&verify);
+                          if(verify == 1 && new_balance < ptr->client.amount){
+                            ptr->client.amount -= new_balance;   
+                          }
+                          break;                          
          
          default:
                  ptr->client.custInfor = input_data();
           break;
          }
-    
-        head = ptr;
-        free(ptr);
          //return section or kill
          printf(" 1. Main Menu                                                                               0. Cancel");
          printf("\n:::");
          scanf("%i",&x);
 
-         if(x== 1) display(head);
+         if(x== 1) display(ptr);
           else exit(-1);
      }
+     ptr = ptr->next;
     }
 
   return head;
@@ -300,5 +368,29 @@ void balance(pos * head,int accNum){
  
 }
 
+
+void write_file(int count, ...) {
+  va_list args;
+  va_start(args, count);
+  
+  //ptr file pointer 
+  FILE * ptr ;
+  ptr = (FILE * )malloc(sizeof(FILE)); //memory allocation
+  
+  ptr = fopen("fileName.b",'b');
+  
+  if(ptr=NULL){
+    printf(" Error, insufficient memory ");
+  }else
+  {
+    for (int i = 0; i < count; i++) {
+      char data = va_arg(args, char);
+      fprintf(ptr,'Data_here');
+    }
+  }   
+  fclose(ptr);
+  
+  va_end(args);
+}
 
 
