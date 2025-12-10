@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Payment Successful | Elite Learners Academy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+
+    <link  href="https://elitelearnersacademy.com/CSS/dashboard.css?v=1.0.2" rel="stylesheet" type='text/css'>
+     <link rel="icon" type="image/x-icon" href="https://elitelearnersacademy.com/ASSETS/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://elitelearnersacademy.com/ASSETS/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="https://elitelearnersacademy.com/ASSETS/favicon-48x48.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="https://elitelearnersacademy.com/ASSETS/favicon-128x128.png">    
+    <link rel="icon" type="image/png" sizes="32x32" href="https://elitelearnersacademy.com/ASSETS/favicon-16x16.png">
+    <link href="https://elitelearnersacademy.com/CSS/bootstrap.min.css" rel="stylesheet" type='text/css'>
+  <style>
+    body {
+      background: linear-gradient(135deg, #f8f9fa, #e9f5ff);
+      font-family: "Poppins", sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #333;
+    }
+    .success-card {
+      background: #fff;
+      border: none;
+      border-radius: 1rem;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      text-align: center;
+      padding: 3rem 2rem;
+      max-width: 500px;
+      width: 100%;
+      animation: fadeIn 0.7s ease-in-out;
+    }
+    .success-icon {
+      font-size: 4rem;
+      color: #28a745;
+      margin-bottom: 1rem;
+      animation: pop 0.5s ease-in-out;
+    }
+    .btn-custom {
+      background-color: #0d6efd;
+      color: #fff;
+      border-radius: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+    .btn-custom:hover {
+      background-color: #0b5ed7;
+      transform: translateY(-2px);
+    }
+    @keyframes pop {
+      0% { transform: scale(0.7); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="success-card">
+    <div class="success-icon">✅</div>
+    <h1 class="fw-bold mb-3 text-success">Payment Successful</h1>
+    <p class="mb-4">Thank you for your payment! Your enrollment was successful.  
+      Please check your email for a confirmation message.</p>
+    <a href="my_courses.php" class="btn btn-custom">Go to My Courses</a>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
