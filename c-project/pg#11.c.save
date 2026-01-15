@@ -1,0 +1,14 @@
+//11. C Program to Increment by 1 to all the Digits of a Given Integer
+#include <stdio.h>
+
+int slicer(int x){
+    int r,d;//r for the remaider & d for the divisor
+    do{
+     r=x%10;
+     
+    }while(r!=0);
+}
+
+void  main(){
+
+}

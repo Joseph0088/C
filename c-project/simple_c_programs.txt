@@ -1,0 +1,24 @@
+
+    #1. Hello World Program in C
+    #2. C Program to Check Whether a Given Number is Even or Odd
+    #3. C Program to Find the Sum of Even and Odd Numbers
+    #4. C program to Check Whether a Number is Positive or Negative
+    #5. C program to Find the Largest Number Among Three Numbers
+    #6. C Program to Swap Two Numbers
+    #7. C Program to Find the Number of Integers Divisible by 5
+    #8. C Program to Check if Two Numbers are Equal
+    #9. C Program to Find Sum of Digits of a Number
+    #10. C Program to Find Sum of Digits of a Number using Recursion
+    #11. C Program to Increment by 1 to all the Digits of a Given Integer
+    #13. C Program that Takes Input as 2323 and Gives Output as 2332
+    #14. C Program to Find the Sum of Each Row and Column of a Matrix
+    #15. C Program to Print Multiplication Table
+    #16. C Program to Read a Grade and Display the Equivalent Description
+    #17. C Program to Input 3 Arguments and Operate Appropriately on the Numbers
+    #18. C Program to Count the Number of Vowels and Consonants in a Sentence
+    #19. C Program to Count No of Lines, Blank Lines, and Comments in the Program
+    #20. C Program to Convert Lowercase Characters by Uppercase and Vice-Versa
+    #21. C Program to Accept the Height of a Person & Categorize as Taller, Dwarf & Average
+    #22. C Program to Print Environment Variables
+    #23. C Program to Print the Program Name and All its Arguments
+
