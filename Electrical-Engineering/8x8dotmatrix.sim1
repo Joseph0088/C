@@ -1,0 +1,5 @@
+<circuit version="1.1.0" rev="1912+dfsg-4build2" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Max72xx_matrix" CircId="Max72xx_matrix-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-104,-136" rotation="0" hflip="1" vflip="1" label="Max72xx_matrix-1" idLabPos="-32,-58" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" NumDisplays="4 _8x8 Led" />
+
+</circuit>

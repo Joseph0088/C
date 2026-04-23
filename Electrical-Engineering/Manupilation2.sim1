@@ -1,0 +1,79 @@
+<circuit version="1.1.0" rev="1912+dfsg-4build2" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="And Gate" CircId="And Gate-14" mainComp="false" Show_id="false" Show_Val="false" Pos="-444,-100" rotation="0" hflip="1" vflip="1" label="And Gate-14" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" initHigh="false" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Resistor" CircId="Resistor-9" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-320,-304" rotation="0" hflip="1" vflip="1" label="Resistor-9" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-20" mainComp="false" Show_id="false" Show_Val="false" Pos="-708,-28" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-20" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-17" mainComp="false" Show_id="false" Show_Val="false" Pos="-708,-124" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-17" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-19" mainComp="false" Show_id="false" Show_Val="false" Pos="-708,-72" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-19" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-620,-348" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-5" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+
+<item itemtype="And Gate" CircId="And Gate-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-492,-336" rotation="0" hflip="1" vflip="1" label="And Gate-2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" initHigh="false" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="And Gate" CircId="And Gate-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-392,-304" rotation="0" hflip="1" vflip="1" label="And Gate-4" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" initHigh="false" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Led" CircId="Led-1" mainComp="false" Show_id="false" Show_Val="false" Pos="-216,-304" rotation="0" hflip="1" vflip="1" label="Led-1" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-7" mainComp="false" Show_id="false" Show_Val="false" Pos="-624,-276" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-7" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+
+<item itemtype="Ground" CircId="Ground-10" mainComp="false" Show_id="false" Show_Val="false" Pos="-164,-244" rotation="0" hflip="1" vflip="1" label="Ground-10" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Led" CircId="Led-12" mainComp="false" Show_id="false" Show_Val="false" Pos="-232,-100" rotation="0" hflip="1" vflip="1" label="Led-12" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="And Gate" CircId="And Gate-3" mainComp="false" Show_id="false" Show_Val="false" Pos="-484,-268" rotation="0" hflip="1" vflip="1" label="And Gate-3" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" initHigh="false" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="And Gate" CircId="And Gate-16" mainComp="false" Show_id="false" Show_Val="false" Pos="-536,-116" rotation="0" hflip="1" vflip="1" label="And Gate-16" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" initHigh="false" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-8" mainComp="false" Show_id="false" Show_Val="false" Pos="-624,-256" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-8" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+
+<item itemtype="And Gate" CircId="And Gate-15" mainComp="false" Show_id="false" Show_Val="false" Pos="-608,-84" rotation="0" hflip="1" vflip="1" label="And Gate-15" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Num_Inputs="2 _Inputs" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" initHigh="false" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-6" mainComp="false" Show_id="false" Show_Val="false" Pos="-620,-324" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-6" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-18" mainComp="false" Show_id="false" Show_Val="false" Pos="-708,-92" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-18" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+
+<item itemtype="Ground" CircId="Ground-13" mainComp="false" Show_id="false" Show_Val="false" Pos="-168,-36" rotation="0" hflip="1" vflip="1" label="Ground-13" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-11" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-312,-100" rotation="0" hflip="1" vflip="1" label="Resistor-11" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Connector" uid="Connector-14" startpinid="Led-12-rPin" endpinid="Ground-13-Gnd" pointList="-216,-100,-168,-100,-168,-52" />
+
+<item itemtype="Connector" uid="Connector-2" startpinid="Fixed Voltage-6-outnod" endpinid="And Gate-2-in1" pointList="-604,-324,-508,-324,-508,-332" />
+
+<item itemtype="Connector" uid="Connector-6" startpinid="And Gate-2-out" endpinid="And Gate-4-in0" pointList="-476,-336,-408,-336,-408,-308" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="Fixed Voltage-8-outnod" endpinid="And Gate-3-in1" pointList="-608,-256,-500,-256,-500,-264" />
+
+<item itemtype="Connector" uid="Connector-13" startpinid="Resistor-11-rPin" endpinid="Led-12-lPin" pointList="-296,-100,-248,-100" />
+
+<item itemtype="Connector" uid="Connector-9" startpinid="Led-1-rPin" endpinid="Ground-10-Gnd" pointList="-200,-304,-164,-304,-164,-260" />
+
+<item itemtype="Connector" uid="Connector-10" startpinid="And Gate-15-out" endpinid="And Gate-16-in1" pointList="-592,-84,-556,-84,-556,-112,-552,-112" />
+
+<item itemtype="Connector" uid="Connector-8" startpinid="Resistor-9-rPin" endpinid="Led-1-lPin" pointList="-304,-304,-232,-304" />
+
+<item itemtype="Connector" uid="Connector-5" startpinid="And Gate-3-out" endpinid="And Gate-4-in1" pointList="-468,-268,-408,-268,-408,-300" />
+
+<item itemtype="Connector" uid="Connector-18" startpinid="Fixed Voltage-20-outnod" endpinid="And Gate-14-in1" pointList="-692,-28,-528,-28,-528,-96,-460,-96" />
+
+<item itemtype="Connector" uid="Connector-7" startpinid="And Gate-4-out" endpinid="Resistor-9-lPin" pointList="-376,-304,-336,-304" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="Fixed Voltage-7-outnod" endpinid="And Gate-3-in0" pointList="-608,-276,-500,-276,-500,-272" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="Fixed Voltage-5-outnod" endpinid="And Gate-2-in0" pointList="-604,-348,-508,-348,-508,-340" />
+
+<item itemtype="Connector" uid="Connector-15" startpinid="Fixed Voltage-18-outnod" endpinid="And Gate-15-in0" pointList="-692,-92,-624,-92,-624,-88" />
+
+<item itemtype="Connector" uid="Connector-17" startpinid="Fixed Voltage-17-outnod" endpinid="And Gate-16-in0" pointList="-692,-124,-552,-124,-552,-120" />
+
+<item itemtype="Connector" uid="Connector-16" startpinid="Fixed Voltage-19-outnod" endpinid="And Gate-15-in1" pointList="-692,-72,-624,-72,-624,-80" />
+
+<item itemtype="Connector" uid="Connector-12" startpinid="And Gate-14-out" endpinid="Resistor-11-lPin" pointList="-428,-100,-328,-100" />
+
+<item itemtype="Connector" uid="Connector-11" startpinid="And Gate-16-out" endpinid="And Gate-14-in0" pointList="-520,-116,-460,-116,-460,-104" />
+
+</circuit>

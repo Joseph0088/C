@@ -1,0 +1,25 @@
+<circuit version="1.1.0" rev="1912+dfsg-4build2" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Ground" CircId="Ground-3" mainComp="false" Show_id="false" Show_Val="false" Pos="36,-144" rotation="0" hflip="1" vflip="1" label="Ground-3" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Subcircuit" CircId="74HC02-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-136,-208" rotation="0" hflip="1" vflip="1" label="74HC02-1" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" Logic_Symbol="true" />
+
+<item itemtype="Led" CircId="Led-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-20,-196" rotation="0" hflip="1" vflip="1" label="Led-2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-6" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-332,-200" rotation="0" hflip="1" vflip="1" label="Resistor-6" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="100 Ω" />
+
+<item itemtype="Switch" CircId="Switch-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-220,-200" rotation="0" hflip="1" vflip="1" label="Switch-4" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-8" mainComp="false" Show_id="false" Show_Val="false" Pos="-464,-196" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-8" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="Resistor-6-rPin" endpinid="Switch-4-pinP0" pointList="-316,-200,-236,-200" />
+
+<item itemtype="Connector" uid="Connector-6" startpinid="Switch-4-switch0pinN" endpinid="74HC02-1-1A" pointList="-204,-200,-144,-200" />
+
+<item itemtype="Connector" uid="Connector-9" startpinid="Led-2-rPin" endpinid="Ground-3-Gnd" pointList="-4,-196,36,-196,36,-160" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="Fixed Voltage-8-outnod" endpinid="Resistor-6-lPin" pointList="-448,-196,-348,-196,-348,-200" />
+
+<item itemtype="Connector" uid="Connector-8" startpinid="74HC02-1-1Y" endpinid="Led-2-lPin" pointList="-96,-192,-36,-192,-36,-196" />
+
+</circuit>

@@ -1,0 +1,253 @@
+<circuit version="1.1.0" rev="1912+dfsg-4build2" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="1" >
+
+<item itemtype="FlipFlopJK" CircId="FlipFlopJK-17" mainComp="false" Show_id="false" Show_Val="false" Pos="40,-244" rotation="0" hflip="1" vflip="1" label="FlipFlopJK-17" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" UseRS="false" Reset_Inverted="false" Clock_Inverted="false" Trigger="Clock" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" pd_n="1 _Gates" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="FlipFlopJK" CircId="FlipFlopJK-19" mainComp="false" Show_id="false" Show_Val="false" Pos="292,-248" rotation="0" hflip="1" vflip="1" label="FlipFlopJK-19" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" UseRS="false" Reset_Inverted="false" Clock_Inverted="false" Trigger="Clock" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" pd_n="1 _Gates" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="FlipFlopJK" CircId="FlipFlopJK-7" mainComp="false" Show_id="false" Show_Val="false" Pos="-400,-228" rotation="0" hflip="1" vflip="1" label="FlipFlopJK-7" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" UseRS="false" Reset_Inverted="false" Clock_Inverted="false" Trigger="Clock" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" pd_n="1 _Gates" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="FlipFlopJK" CircId="FlipFlopJK-20" mainComp="false" Show_id="false" Show_Val="false" Pos="420,-252" rotation="0" hflip="1" vflip="1" label="FlipFlopJK-20" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" UseRS="false" Reset_Inverted="false" Clock_Inverted="false" Trigger="Clock" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" pd_n="1 _Gates" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Led" CircId="Led-40" mainComp="false" Show_id="false" Show_Val="false" Pos="228,-172" rotation="0" hflip="1" vflip="1" label="Led-40" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-42" mainComp="false" Show_id="false" Show_Val="false" Pos="472,-176" rotation="0" hflip="1" vflip="1" label="Led-42" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-41" mainComp="false" Show_id="false" Show_Val="false" Pos="340,-176" rotation="0" hflip="1" vflip="1" label="Led-41" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-61" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-332,-12" rotation="90" hflip="1" vflip="1" label="Resistor-61" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="10 Ω" />
+
+<item itemtype="Ground" CircId="Ground-8" mainComp="false" Show_id="false" Show_Val="false" Pos="-160,-28" rotation="0" hflip="1" vflip="1" label="Ground-8" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="FlipFlopJK" CircId="FlipFlopJK-21" mainComp="false" Show_id="false" Show_Val="false" Pos="548,-256" rotation="0" hflip="1" vflip="1" label="FlipFlopJK-21" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" UseRS="false" Reset_Inverted="false" Clock_Inverted="false" Trigger="Clock" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" pd_n="1 _Gates" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Led" CircId="Led-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-12,-168" rotation="0" hflip="1" vflip="1" label="Led-5" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-63" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-332,48" rotation="90" hflip="1" vflip="1" label="Resistor-63" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="10 Ω" />
+
+<item itemtype="Led" CircId="Led-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-348,-156" rotation="0" hflip="1" vflip="1" label="Led-2" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="FlipFlopJK" CircId="FlipFlopJK-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-116,-236" rotation="0" hflip="1" vflip="1" label="FlipFlopJK-4" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" UseRS="false" Reset_Inverted="false" Clock_Inverted="false" Trigger="Clock" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" pd_n="1 _Gates" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-14" mainComp="false" Show_id="false" Show_Val="false" Pos="-460,-332" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-14" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Clock" CircId="Clock-15" mainComp="false" Show_id="false" Show_Val="false" Pos="-572,-228" rotation="0" hflip="1" vflip="1" label="Clock-15" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Voltage="5 V" Freq="1 Hz" Always_On="false" />
+
+<item itemtype="Led" CircId="Led-10" mainComp="false" Show_id="false" Show_Val="false" Pos="-172,-152" rotation="0" hflip="1" vflip="1" label="Led-10" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Ground" CircId="Ground-58" mainComp="false" Show_id="false" Show_Val="false" Pos="-120,172" rotation="0" hflip="1" vflip="1" label="Ground-58" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="FlipFlopJK" CircId="FlipFlopJK-13" mainComp="false" Show_id="false" Show_Val="false" Pos="-248,-232" rotation="0" hflip="1" vflip="1" label="FlipFlopJK-13" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" UseRS="false" Reset_Inverted="false" Clock_Inverted="false" Trigger="Clock" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" pd_n="1 _Gates" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Led" CircId="Led-43" mainComp="false" Show_id="false" Show_Val="false" Pos="608,-184" rotation="0" hflip="1" vflip="1" label="Led-43" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Ground" CircId="Ground-55" mainComp="false" Show_id="false" Show_Val="false" Pos="624,-52" rotation="0" hflip="1" vflip="1" label="Ground-55" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="FlipFlopJK" CircId="FlipFlopJK-18" mainComp="false" Show_id="false" Show_Val="false" Pos="180,-248" rotation="0" hflip="1" vflip="1" label="FlipFlopJK-18" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" UseRS="false" Reset_Inverted="false" Clock_Inverted="false" Trigger="Clock" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" pd_n="1 _Gates" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-60" mainComp="false" Show_id="false" Show_Val="false" Pos="-448,-56" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-60" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="BJT" CircId="BJT-59" mainComp="false" Show_id="false" Show_Val="false" Pos="-268,16" rotation="0" hflip="1" vflip="1" label="BJT-59" idLabPos="18,0" labelrot="0" valLabPos="-16,20" valLabRot="0" PNP="false" Gain="100" Vcrit="0.670736 V" />
+
+<item itemtype="DcMotor" CircId="DcMotor-56" mainComp="false" Show_id="true" Show_Val="false" Pos="-176,84" rotation="0" hflip="1" vflip="1" label="DcMotor-56" idLabPos="-22,-48" labelrot="0" valLabPos="-14,36" valLabRot="0" RPM_Nominal="60 _RPM" Volt_Nominal="5 V" Resistance="100 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-62" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-260,-36" rotation="90" hflip="1" vflip="1" label="Resistor-62" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="10 Ω" />
+
+<item itemtype="Led" CircId="Led-39" mainComp="false" Show_id="false" Show_Val="false" Pos="100,-172" rotation="0" hflip="1" vflip="1" label="Led-39" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Node" CircId="Node-32" mainComp="false" Pos="16,-252" />
+
+<item itemtype="Node" CircId="Node-73" mainComp="false" Pos="116,-64" />
+
+<item itemtype="Node" CircId="Node-11" mainComp="false" Pos="-144,-248" />
+
+<item itemtype="Node" CircId="Node-27" mainComp="false" Pos="532,-264" />
+
+<item itemtype="Node" CircId="Node-66" mainComp="false" Pos="-136,156" />
+
+<item itemtype="Node" CircId="Node-71" mainComp="false" Pos="-156,-64" />
+
+<item itemtype="Node" CircId="Node-1" mainComp="false" Pos="-444,-236" />
+
+<item itemtype="Node" CircId="Node-25" mainComp="false" Pos="392,-260" />
+
+<item itemtype="Node" CircId="Node-75" mainComp="false" Pos="356,-64" />
+
+<item itemtype="Node" CircId="Node-65" mainComp="false" Pos="-332,16" />
+
+<item itemtype="Node" CircId="Node-24" mainComp="false" Pos="-144,-332" />
+
+<item itemtype="Node" CircId="Node-33" mainComp="false" Pos="16,-332" />
+
+<item itemtype="Node" CircId="Node-74" mainComp="false" Pos="244,-64" />
+
+<item itemtype="Node" CircId="Node-31" mainComp="false" Pos="164,-256" />
+
+<item itemtype="Node" CircId="Node-3" mainComp="false" Pos="-444,-332" />
+
+<item itemtype="Node" CircId="Node-77" mainComp="false" Pos="488,-64" />
+
+<item itemtype="Node" CircId="Node-29" mainComp="false" Pos="276,-332" />
+
+<item itemtype="Node" CircId="Node-16" mainComp="false" Pos="-280,-332" />
+
+<item itemtype="Node" CircId="Node-28" mainComp="false" Pos="276,-256" />
+
+<item itemtype="Node" CircId="Node-30" mainComp="false" Pos="160,-332" />
+
+<item itemtype="Node" CircId="Node-72" mainComp="false" Pos="0,-64" />
+
+<item itemtype="Node" CircId="Node-78" mainComp="false" Pos="-332,-52" />
+
+<item itemtype="Node" CircId="Node-12" mainComp="false" Pos="-280,-244" />
+
+<item itemtype="Node" CircId="Node-67" mainComp="false" Pos="-156,-60" />
+
+<item itemtype="Node" CircId="Node-26" mainComp="false" Pos="392,-332" />
+
+<item itemtype="Connector" uid="Connector-144" startpinid="Led-10-rPin" endpinid="Node-71-0" pointList="-156,-152,-156,-64" />
+
+<item itemtype="Connector" uid="Connector-123" startpinid="Node-65-2" endpinid="Resistor-63-lPin" pointList="-332,16,-332,32" />
+
+<item itemtype="Connector" uid="Connector-49" startpinid="Node-27-2" endpinid="Node-26-0" pointList="532,-264,532,-332,392,-332" />
+
+<item itemtype="Connector" uid="Connector-36" startpinid="FlipFlopJK-17-out0" endpinid="FlipFlopJK-18-in4" pointList="64,-252,136,-252,136,-248,164,-248" />
+
+<item itemtype="Connector" uid="Connector-48" startpinid="FlipFlopJK-21-in0" endpinid="Node-27-0" pointList="532,-264,532,-264" />
+
+<item itemtype="Connector" uid="Connector-52" startpinid="FlipFlopJK-19-in1" endpinid="Node-28-0" pointList="276,-240,260,-240,260,-256,276,-256" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="FlipFlopJK-13-out0" endpinid="FlipFlopJK-4-in4" pointList="-224,-240,-132,-240,-132,-236" />
+
+<item itemtype="Connector" uid="Connector-80" startpinid="FlipFlopJK-21-out1" endpinid="Led-43-lPin" pointList="572,-248,572,-184,592,-184" />
+
+<item itemtype="Connector" uid="Connector-79" startpinid="FlipFlopJK-20-out1" endpinid="Led-42-lPin" pointList="444,-244,444,-176,456,-176" />
+
+<item itemtype="Connector" uid="Connector-76" startpinid="FlipFlopJK-17-out1" endpinid="Led-39-lPin" pointList="64,-236,64,-172,84,-172" />
+
+<item itemtype="Connector" uid="Connector-54" startpinid="Node-26-2" endpinid="Node-29-0" pointList="392,-332,276,-332" />
+
+<item itemtype="Connector" uid="Connector-42" startpinid="Node-25-1" endpinid="Node-26-1" pointList="392,-260,392,-332" />
+
+<item itemtype="Connector" uid="Connector-2" startpinid="FlipFlopJK-7-out0" endpinid="FlipFlopJK-13-in4" pointList="-376,-236,-264,-236,-264,-232" />
+
+<item itemtype="Connector" uid="Connector-11" startpinid="FlipFlopJK-13-in0" endpinid="Node-12-1" pointList="-264,-240,-280,-240,-280,-244" />
+
+<item itemtype="Connector" uid="Connector-111" startpinid="BJT-59-emiter" endpinid="DcMotor-56-lPin" pointList="-260,32,-260,84,-216,84" />
+
+<item itemtype="Connector" uid="Connector-51" startpinid="Node-28-1" endpinid="Node-29-1" pointList="276,-256,276,-332" />
+
+<item itemtype="Connector" uid="Connector-66" startpinid="Node-30-2" endpinid="Node-33-0" pointList="160,-332,16,-332" />
+
+<item itemtype="Connector" uid="Connector-47" startpinid="Node-27-1" endpinid="FlipFlopJK-21-in1" pointList="532,-264,516,-264,516,-248,532,-248" />
+
+<item itemtype="Connector" uid="Connector-58" startpinid="Node-29-2" endpinid="Node-30-0" pointList="276,-332,160,-332" />
+
+<item itemtype="Connector" uid="Connector-61" startpinid="Node-31-2" endpinid="FlipFlopJK-18-in0" pointList="164,-256,164,-256" />
+
+<item itemtype="Connector" uid="Connector-13" startpinid="Node-3-2" endpinid="Node-1-0" pointList="-444,-332,-444,-236" />
+
+<item itemtype="Connector" uid="Connector-164" startpinid="Led-42-rPin" endpinid="Node-77-0" pointList="488,-176,488,-64" />
+
+<item itemtype="Connector" uid="Connector-158" startpinid="Node-75-2" endpinid="Node-74-1" pointList="356,-64,244,-64" />
+
+<item itemtype="Connector" uid="Connector-130" startpinid="Led-2-rPin" endpinid="Node-67-1" pointList="-332,-156,-300,-156,-300,-60,-156,-60" />
+
+<item itemtype="Connector" uid="Connector-163" startpinid="Led-43-rPin" endpinid="Node-77-1" pointList="624,-184,624,-64,488,-64" />
+
+<item itemtype="Connector" uid="Connector-53" startpinid="Node-28-2" endpinid="FlipFlopJK-19-in0" pointList="276,-256,276,-256" />
+
+<item itemtype="Connector" uid="Connector-129" startpinid="Node-66-2" endpinid="Ground-58-Gnd" pointList="-136,156,-120,156" />
+
+<item itemtype="Connector" uid="Connector-21" startpinid="FlipFlopJK-4-out0" endpinid="FlipFlopJK-17-in4" pointList="-92,-244,24,-244" />
+
+<item itemtype="Connector" uid="Connector-10" startpinid="FlipFlopJK-4-in1" endpinid="Node-11-0" pointList="-132,-228,-144,-228,-144,-248" />
+
+<item itemtype="Connector" uid="Connector-166" startpinid="Led-5-rPin" endpinid="Node-72-0" pointList="4,-168,4,-64,0,-64" />
+
+<item itemtype="Connector" uid="Connector-7" startpinid="FlipFlopJK-7-out1" endpinid="Led-2-lPin" pointList="-376,-220,-376,-156,-364,-156" />
+
+<item itemtype="Connector" uid="Connector-43" startpinid="FlipFlopJK-20-in1" endpinid="Node-25-0" pointList="404,-244,392,-244,392,-260" />
+
+<item itemtype="Connector" uid="Connector-65" startpinid="Node-32-2" endpinid="FlipFlopJK-17-in0" pointList="16,-252,24,-252" />
+
+<item itemtype="Connector" uid="Connector-151" startpinid="Led-39-rPin" endpinid="Node-73-0" pointList="116,-172,116,-64" />
+
+<item itemtype="Connector" uid="Connector-67" startpinid="Node-33-2" endpinid="Node-24-1" pointList="16,-332,-144,-332" />
+
+<item itemtype="Connector" uid="Connector-19" startpinid="Fixed Voltage-14-outnod" endpinid="Node-3-0" pointList="-444,-332,-444,-332" />
+
+<item itemtype="Connector" uid="Connector-12" startpinid="Node-12-2" endpinid="FlipFlopJK-13-in1" pointList="-280,-244,-280,-224,-264,-224" />
+
+<item itemtype="Connector" uid="Connector-18" startpinid="FlipFlopJK-13-out1" endpinid="Led-10-lPin" pointList="-224,-224,-224,-152,-188,-152" />
+
+<item itemtype="Connector" uid="Connector-155" startpinid="Node-74-2" endpinid="Node-73-1" pointList="244,-64,116,-64" />
+
+<item itemtype="Connector" uid="Connector-121" startpinid="BJT-59-base" endpinid="Node-65-1" pointList="-284,16,-332,16" />
+
+<item itemtype="Connector" uid="Connector-128" startpinid="DcMotor-56-rPin" endpinid="Node-66-0" pointList="-136,84,-136,156" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="FlipFlopJK-4-in0" endpinid="Node-11-1" pointList="-132,-244,-144,-244,-144,-248" />
+
+<item itemtype="Connector" uid="Connector-14" startpinid="Node-16-2" endpinid="Node-12-0" pointList="-280,-332,-280,-244" />
+
+<item itemtype="Connector" uid="Connector-6" startpinid="Clock-15-outnod" endpinid="FlipFlopJK-7-in4" pointList="-556,-228,-416,-228" />
+
+<item itemtype="Connector" uid="Connector-44" startpinid="Node-25-2" endpinid="FlipFlopJK-20-in0" pointList="392,-260,404,-260" />
+
+<item itemtype="Connector" uid="Connector-24" startpinid="FlipFlopJK-19-out0" endpinid="FlipFlopJK-20-in4" pointList="316,-256,404,-256,404,-252" />
+
+<item itemtype="Connector" uid="Connector-157" startpinid="Led-41-rPin" endpinid="Node-75-0" pointList="356,-176,356,-64" />
+
+<item itemtype="Connector" uid="Connector-30" startpinid="FlipFlopJK-18-out0" endpinid="FlipFlopJK-19-in4" pointList="204,-256,232,-256,232,-248,276,-248" />
+
+<item itemtype="Connector" uid="Connector-165" startpinid="Node-77-2" endpinid="Node-75-1" pointList="488,-64,356,-64" />
+
+<item itemtype="Connector" uid="Connector-57" startpinid="Node-30-1" endpinid="Node-31-1" pointList="160,-332,160,-256,164,-256" />
+
+<item itemtype="Connector" uid="Connector-63" startpinid="Node-32-1" endpinid="Node-33-1" pointList="16,-252,16,-332" />
+
+<item itemtype="Connector" uid="Connector-20" startpinid="Node-3-1" endpinid="Node-16-0" pointList="-444,-332,-280,-332" />
+
+<item itemtype="Connector" uid="Connector-132" startpinid="Node-67-2" endpinid="Ground-8-Gnd" pointList="-156,-60,-156,-44,-160,-44" />
+
+<item itemtype="Connector" uid="Connector-64" startpinid="FlipFlopJK-17-in1" endpinid="Node-32-0" pointList="24,-236,16,-236,16,-252" />
+
+<item itemtype="Connector" uid="Connector-39" startpinid="Node-11-2" endpinid="Node-24-0" pointList="-144,-248,-144,-332" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="FlipFlopJK-4-out1" endpinid="Led-5-lPin" pointList="-92,-228,-28,-228,-28,-168" />
+
+<item itemtype="Connector" uid="Connector-148" startpinid="Node-72-2" endpinid="Node-71-1" pointList="0,-64,-156,-64" />
+
+<item itemtype="Connector" uid="Connector-77" startpinid="FlipFlopJK-18-out1" endpinid="Led-40-lPin" pointList="204,-240,204,-172,212,-172" />
+
+<item itemtype="Connector" uid="Connector-118" startpinid="Resistor-62-rPin" endpinid="BJT-59-collector" pointList="-260,-20,-260,0" />
+
+<item itemtype="Connector" uid="Connector-122" startpinid="Resistor-61-rPin" endpinid="Node-65-0" pointList="-332,4,-332,16" />
+
+<item itemtype="Connector" uid="Connector-60" startpinid="FlipFlopJK-18-in1" endpinid="Node-31-0" pointList="164,-240,148,-240,148,-256,164,-256" />
+
+<item itemtype="Connector" uid="Connector-127" startpinid="Resistor-63-rPin" endpinid="Node-66-1" pointList="-332,64,-332,156,-136,156" />
+
+<item itemtype="Connector" uid="Connector-168" startpinid="Resistor-62-lPin" endpinid="Node-78-0" pointList="-260,-52,-332,-52" />
+
+<item itemtype="Connector" uid="Connector-152" startpinid="Node-73-2" endpinid="Node-72-1" pointList="116,-64,0,-64" />
+
+<item itemtype="Connector" uid="Connector-37" startpinid="FlipFlopJK-20-out0" endpinid="FlipFlopJK-21-in4" pointList="444,-260,444,-256,532,-256" />
+
+<item itemtype="Connector" uid="Connector-17" startpinid="Node-1-2" endpinid="FlipFlopJK-7-in0" pointList="-444,-236,-416,-236" />
+
+<item itemtype="Connector" uid="Connector-145" startpinid="Node-71-2" endpinid="Node-67-0" pointList="-156,-64,-156,-60" />
+
+<item itemtype="Connector" uid="Connector-167" startpinid="Resistor-61-lPin" endpinid="Node-78-1" pointList="-332,-28,-332,-52" />
+
+<item itemtype="Connector" uid="Connector-154" startpinid="Led-40-rPin" endpinid="Node-74-0" pointList="244,-172,244,-64" />
+
+<item itemtype="Connector" uid="Connector-5" startpinid="Node-1-1" endpinid="FlipFlopJK-7-in1" pointList="-444,-236,-444,-220,-416,-220" />
+
+<item itemtype="Connector" uid="Connector-40" startpinid="Node-24-2" endpinid="Node-16-1" pointList="-144,-332,-280,-332" />
+
+<item itemtype="Connector" uid="Connector-78" startpinid="FlipFlopJK-19-out1" endpinid="Led-41-lPin" pointList="316,-240,316,-176,324,-176" />
+
+<item itemtype="Connector" uid="Connector-169" startpinid="Node-78-2" endpinid="Fixed Voltage-60-outnod" pointList="-332,-52,-432,-52,-432,-56" />
+
+</circuit>
